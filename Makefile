@@ -6,14 +6,13 @@
 #    By: aoutumur <aoutumur@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/11/04 14:20:18 by aoutumur          #+#    #+#              #
-#    Updated: 2024/11/11 16:29:54 by aoutumur         ###   ########.fr        #
+#    Updated: 2024/11/11 16:42:24 by aoutumur         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = libftprintf.a
 
 SRC_DIR = src
-INCLUDES = . include
 LIBFT_DIR = libft
 LIBFT = $(LIBFT_DIR)/libft.a
 
@@ -28,7 +27,7 @@ SRC = 	ft_printf.c \
 OBJS = $(SRC:.c=.o)
 
 CC = gcc
-CFLAGS = -Wall -Wextra -Werror $(addprefix -I, $(INCLUDES))
+CFLAGS = -Wall -Wextra -Werror -I. -I./libft -I./include
 
 all: $(LIBFT) $(NAME)
 
@@ -55,4 +54,3 @@ fclean: clean
 re: fclean all
 
 .PHONY: all clean fclean re
-
