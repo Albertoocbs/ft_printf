@@ -6,7 +6,7 @@
 /*   By: aoutumur <aoutumur@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/06 10:44:10 by aoutumur          #+#    #+#             */
-/*   Updated: 2024/11/20 12:16:23 by aoutumur         ###   ########.fr       */
+/*   Updated: 2024/11/20 13:06:55 by aoutumur         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,10 @@ int	ft_print_str(char *str)
 
 	i = 0;
 	if (!str)
-		return (0);
+	{
+		ft_putstr("(null)");
+		return (6);
+	}
 	while (str[i])
 	{
 		ft_print_char(str[i]);

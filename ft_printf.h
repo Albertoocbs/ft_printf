@@ -6,7 +6,7 @@
 /*   By: aoutumur <aoutumur@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/04 14:26:12 by aoutumur          #+#    #+#             */
-/*   Updated: 2024/11/20 12:14:09 by aoutumur         ###   ########.fr       */
+/*   Updated: 2024/11/20 12:50:53 by aoutumur         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,16 +18,16 @@
 #ifndef FT_PRINTF_H
 # define FT_PRINTF_H
 
-# include "libft/libft.h"  
+# include "libft/libft.h"
 # include <stdarg.h>       
 # include <stdio.h> 
 # include <stdlib.h>  
 # include <unistd.h>
 
-/*------------------ Fonction principale de printf ----------------*/
+/*---------------- Fonction principale de printf --------------*/
 int		ft_printf(const char *str, ...);
 
-/*------------------ Fonctions de Formats pour les conversions --------------*/
+/*--------- Fonctions de Formats pour les conversions --------*/
 int		ft_formats(va_list args, const char format);
 
 /*--------------- Fonctions de Conversion -----------------*/
@@ -45,4 +45,4 @@ void	ft_putnbr_hex(unsigned int num, const char format);
 int		ft_putstr(const char *str);
 void	ft_putnbr_base(unsigned long long num);
 
-#endif /* Fin de la protection contre les inclusions multiples */
+#endif
