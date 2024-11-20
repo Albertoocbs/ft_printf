@@ -6,7 +6,7 @@
 /*   By: aoutumur <aoutumur@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/06 10:44:10 by aoutumur          #+#    #+#             */
-/*   Updated: 2024/11/08 13:29:27 by aoutumur         ###   ########.fr       */
+/*   Updated: 2024/11/20 12:16:23 by aoutumur         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,3 +26,11 @@ int	ft_print_str(char *str)
 	}
 	return (i);
 }
+
+/*
+Cette fonction affiche une chaine de caracteres sur la sortie standard
+
+Retourne la taille de la chaine de caracteres affichée (i).
+
+Si la chaine est vide restourne 0.
+*/
