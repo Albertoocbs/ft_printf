@@ -13,7 +13,7 @@ This is the opportunity to learn about format specifiers and variadic functions 
 ---
 **Status**
 
-Finished: 2025-01-19. Grade: 105/100.
+Finished: 2025-01-16. Grade: 100/100.
 
 ---
 
