@@ -6,7 +6,7 @@
 /*   By: aoutumur <aoutumur@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/06 10:49:22 by aoutumur          #+#    #+#             */
-/*   Updated: 2024/11/20 14:11:31 by aoutumur         ###   ########.fr       */
+/*   Updated: 2024/11/20 14:25:53 by aoutumur         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,7 @@
 
 int	ft_print_percent(void)
 {
-	ft_print_char('%');
-	return (1);
+	return (ft_print_char('%'));
 }
 
 /*
